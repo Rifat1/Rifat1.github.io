@@ -1,10 +1,10 @@
-<img width="1943" height="1093" alt="Portfolio Preview" src="public/Screenshot 2025-10-21 at 3.03.09 PM.png" />
+<img width="1943" height="1093" alt="Portfolio Preview" src="public/public/Screenshot 2025-10-21 at 3.46.27 PM.png" />
 
 # Portfolio-site Template
 
 A modern, minimalist portfolio template built with Astro and Tailwind CSS. Perfect for developers looking to showcase their skills, experience, and projects in a clean, professional way.
 
-This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy integration with your existing AI workflows.
+This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy integration with AI workflows.
 
 ## Built With
 
