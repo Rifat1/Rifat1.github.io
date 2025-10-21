@@ -1,4 +1,4 @@
-<img width="1943" height="1093" alt="Portfolio Preview" src="public/public/Screenshot 2025-10-21 at 3.46.27 PM.png" />
+<img width="1943" height="1093" alt="Portfolio Preview" src="public/Screenshot 2025-10-21 at 3.46.27 PM.png" />
 
 # Portfolio-site Template
 
