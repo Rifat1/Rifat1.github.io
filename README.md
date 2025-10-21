@@ -1,20 +1,10 @@
-<img width="1943" height="1093" alt="image" src="https://github.com/user-attachments/assets/cc2ff955-17c2-48c7-81c8-479a0f061850" />
+<img width="1943" height="1093" alt="Portfolio Preview" src="public/Screenshot 2025-10-21 at 3.03.09 PM.png" />
 
-# DevPortfolio Template
+# Portfolio-site Template
 
 A modern, minimalist portfolio template built with Astro and Tailwind CSS. Perfect for developers looking to showcase their skills, experience, and projects in a clean, professional way.
 
-This was completely rebuilt from the ground up from V1. This template was built to be entirely ready to go with a quick config edit (see below) but also provides the ability to easily extend in whatever way you want.
-
 This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy integration with your existing AI workflows.
-
-> **📬 Connect & Share!**  
-> For questions and updates, feel free to reach out on [**X (Twitter)**](https://x.com/rfitzio).  
-> If you've built and published your personal site with this template, I'd love to see it! Send me a DM 🚀
-
-## Preview
-
-To view a live preview of the site, [click here](https://ryanfitzgerald.github.io/devportfolio/).
 
 ## Built With
 
@@ -45,6 +35,7 @@ If skills, projects, experience, or education are removed from the config, those
 Here's what the config data structure looks like for each section:
 
 #### Basic Information
+
 ```typescript
 name: "Your Name",
 title: "Your Job Title",
@@ -53,26 +44,30 @@ accentColor: "#1d4ed8", // Hex color for theme
 ```
 
 #### Social Links (all optional)
+
 ```typescript
 social: {
   email: "your-email@example.com",
   linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourprofile", 
+  twitter: "https://twitter.com/yourprofile",
   github: "https://github.com/yourusername",
 }
 ```
 
 #### About Section
+
 ```typescript
-aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio."
+aboutMe: "A paragraph describing yourself, your background, interests, and what you're passionate about. This appears in the About section of your portfolio.";
 ```
 
 #### Skills
+
 ```typescript
-skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"]
+skills: ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"];
 ```
 
 #### Projects
+
 ```typescript
 projects: [
   {
@@ -80,11 +75,12 @@ projects: [
     description: "Brief description of what the project does and its impact",
     link: "https://github.com/yourusername/project",
     skills: ["React", "Node.js", "AWS"], // Technologies used
-  }
-]
+  },
+];
 ```
 
 #### Experience
+
 ```typescript
 experience: [
   {
@@ -96,24 +92,25 @@ experience: [
       "Reduced API response times by 40% through optimization",
       "Mentored team of 5 junior developers",
     ],
-  }
-]
+  },
+];
 ```
 
 #### Education
+
 ```typescript
 education: [
   {
     school: "University Name",
     degree: "Bachelor of Science in Computer Science",
-    dateRange: "2014 - 2018",
+    dateRange: "2020 - 2024",
     achievements: [
       "Graduated Magna Cum Laude with 3.8 GPA",
       "Dean's List all semesters",
-      "President of Computer Science Club"
-    ]
-  }
-]
+      "President of Computer Science Club",
+    ],
+  },
+];
 ```
 
 ### Icons
@@ -151,8 +148,7 @@ devportfolio/
 If you'd like to run it locally:
 
 ```
-git clone https://github.com/RyanFitzgerald/devportfolio.git
-cd devportfolio
+git clone
 npm install
 ```
 
@@ -181,7 +177,3 @@ To view the changelog, see CHANGELOG.md.
 ## License
 
 This project is fully and completely MIT. See LICENSE.md.
-
-## Questions?
-
-Feel free to reach out on [X (Twitter)](https://x.com/rfitzio) if you have any questions or need help.
